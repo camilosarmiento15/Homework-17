@@ -1,0 +1,36 @@
+.inline_block{
+    display:inline-block;
+    vertical-align: top;
+}
+
+/*.logo{
+    width: 23%;
+    padding: 1%;
+}*/
+nav{
+    width: 73%;
+    padding: 1%;
+}
+ul{
+    width: 40%;
+    margin-left: auto;
+}
+.pads{
+    padding-left: 10%;
+}
+.font{   
+    font-family: Area Normal, sans-serif;
+
+}
+.fontNav{
+    font-weight: bold;
+    font-size: 16px;
+}
+.fontHead{
+    font-weight: bold;
+    font-size: 64px; 
+}
+.fontTitle{
+    font-family: Area Normal Semibold, sans-serif;
+    font-size: 32px;
+}
