@@ -3,10 +3,16 @@
     vertical-align: top;
 }
 
-/*.logo{
-    width: 23%;
-    padding: 1%;
-}*/
+.LogoFont{
+    font-family: Gala Triline, sans-serif;
+    font-size: 100px;
+    color: #4BA8FB;
+    margin: 0px;
+}
+.navigation{
+    border-bottom: 1px;
+    border-bottom-style: solid;
+}
 nav{
     width: 73%;
     padding: 1%;
@@ -16,7 +22,7 @@ ul{
     margin-left: auto;
 }
 .pads{
-    padding-left: 10%;
+    padding-left: 8%;
 }
 .font{   
     font-family: Area Normal, sans-serif;
@@ -28,9 +34,65 @@ ul{
 }
 .fontHead{
     font-weight: bold;
-    font-size: 64px; 
+    font-size: 64px;
+    margin-bottom: 5px; 
 }
 .fontTitle{
     font-family: Area Normal Semibold, sans-serif;
     font-size: 32px;
+    margin-top: 5px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.GridIntro{
+    margin-left: 30%;
+    margin-top: 30%;
+}
+.AboutMeTitle{
+    font-size: 30px;
+}
+.AboutMeDesc{
+    width: 40%;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+.marginremove{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.marginadd{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.color{
+    background-color: #F3F3F3;
+}
+.headercolor{
+    background-color: white;
+}
+.size{
+    width: 50px;
+    height: 50px;
+}
+.sizemail{
+    width: 60px;
+    height: 60px;
+    transform: translate(0px, 5px);
+}
+footer{
+    border-top: 1px;
+    border-top-style: solid;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: 20% 60%;
+}
+.footernav{
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: flex-start;
 }
