@@ -25,7 +25,8 @@ ul{
     padding-left: 8%;
 }
 .font{   
-    font-family: Area Normal, sans-serif;
+    font-family: "area-normal", sans-serif;
+    font-weight: 400px;
 
 }
 .fontNav{
@@ -38,7 +39,7 @@ ul{
     margin-bottom: 5px; 
 }
 .fontTitle{
-    font-family: Area Normal Semibold, sans-serif;
+    font-weight: 600px;
     font-size: 32px;
     margin-top: 5px;
 }
@@ -93,6 +94,6 @@ footer{
 }
 .footernav{
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 700;
     justify-content: flex-start;
 }
