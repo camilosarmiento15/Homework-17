@@ -4,21 +4,23 @@
 }
 
 .LogoFont{
-    font-family: Gala Triline, sans-serif;
+    font-family: "gala-triline", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 100px;
     color: #4BA8FB;
-    margin: 0px;
+    margin: 0;
 }
 .navigation{
     border-bottom: 1px;
     border-bottom-style: solid;
 }
 nav{
-    width: 73%;
+    width: 82%;
     padding: 1%;
 }
 ul{
-    width: 40%;
+    width: 60%;
     margin-left: auto;
 }
 .pads{
@@ -31,7 +33,7 @@ ul{
 }
 .fontNav{
     font-weight: bold;
-    font-size: 16px;
+    font-size: 28px;
 }
 .fontHead{
     font-weight: bold;
@@ -43,6 +45,9 @@ ul{
     font-size: 32px;
     margin-top: 5px;
 }
+.profilepic{
+    padding-top: 6%;
+}
 .grid-container{
     display: grid;
     grid-template-columns: auto auto;
@@ -50,6 +55,17 @@ ul{
 .GridIntro{
     margin-left: 30%;
     margin-top: 30%;
+    display: inline-block;
+    justify-content: center;
+}
+.buttonstyle{
+    background-color: #35C5FD;
+    border: solid;
+    border-width: 1px;
+    font-family: 'area-normal', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 5px;
 }
 .AboutMeTitle{
     font-size: 30px;
@@ -74,6 +90,9 @@ ul{
 }
 .headercolor{
     background-color: white;
+    margin-top: -20px;
+    margin-left: -8px;
+    margin-right: -8px;
 }
 .size{
     width: 50px;
@@ -93,7 +112,11 @@ footer{
     grid-template-columns: 20% 60%;
 }
 .footernav{
-    font-size: 20px;
+    font-size: 29px;
     font-weight: 700;
-    justify-content: flex-start;
+    padding-top: 4%;
+}
+a{
+    color: black;
+    text-decoration: none;
 }
